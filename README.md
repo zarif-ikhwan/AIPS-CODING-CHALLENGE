@@ -52,3 +52,25 @@ The program outputs:
 2. **Daily totals** — one line per day with date and count
 3. **Top 3 half hours** — the three busiest half-hour periods
 4. **Least busy 1.5 hours** — three contiguous half-hour records with the fewest cars
+
+### Sample Output
+
+```
+Total cars: 398
+
+Cars per day:
+2021-12-01 179
+2021-12-05 81
+2021-12-08 134
+2021-12-09 4
+
+Top 3 half hours:
+2021-12-01T07:30:00 46
+2021-12-01T08:00:00 42
+2021-12-08T18:00:00 33
+
+Least busy 1.5 hour period:
+2021-12-01T15:00:00 9
+2021-12-01T15:30:00 11
+2021-12-01T23:30:00 0
+```
